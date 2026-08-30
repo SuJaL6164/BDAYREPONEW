@@ -18,7 +18,7 @@ export default function Home() {
       // change this date to the desired countdown target date
       showPreviewButton={true}
       
-      targetDate={new Date('2026-08-29T00:00:00+05:30')}
+      targetDate={new Date('2026-09-7T23:50:00+05:30')}
      
      
     >
