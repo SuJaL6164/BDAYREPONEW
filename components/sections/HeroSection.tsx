@@ -39,8 +39,6 @@ const imgs = [
 //   { src: "/pipis/pipi14.jpg" },
 // ];
 
-
-
 export const HeroSection = () => {
   return (
     <section className="relative overflow-hidden flex min-h-screen w-full flex-col overflow-x-hidden bg-[#FAFAF7]">
@@ -50,39 +48,45 @@ export const HeroSection = () => {
         .hero-display {
           font-family: "Bricolage Grotesque", sans-serif;
         }
+
         .hero-body {
           font-family: "Work Sans", sans-serif;
         }
+
         .hero-mono {
           font-family: "JetBrains Mono", monospace;
         }
       `}</style>
 
-      {/* Top row: quiet date stamp, nothing else competing for attention */}
+      {/* Top row: quiet date stamp */}
       <div className="hero-mono flex items-center justify-between px-8 pt-8 text-[11px] uppercase tracking-[0.25em] text-[#8A8A80] sm:px-14">
-        <span>Aug 5</span>
+        <span>Aug 30</span>
         {/* <span>One more lap</span> */}
       </div>
 
-      {/* Headline — centered in the upper half, generous but not stretched to fill the screen */}
+      {/* Headline */}
       <div className="px-8 pt-16 sm:px-14 sm:pt-20">
         <h1 className="hero-display text-[15vw] leading-[0.86] tracking-tight text-[#14140F] sm:text-7xl lg:text-8xl">
           <span className="font-light">Happy</span>
           <br />
           <span className="font-bold">Birthday</span>
-          <br/>
-          <span className="font-bold mt-1 text-amber-500">Yuktu</span>
+          <br />
+          <span className="font-bold mt-1 text-amber-500">Honey</span>
         </h1>
+
         <div className="mt-6 h-px w-16 bg-[#9C7A3F]" />
+
         <p className="hero-body mt-6 max-w-sm text-base leading-relaxed text-[#4A4A42]">
-       Happy Birthday Yuktuu
-I may not able to explain my feelings what u really mean to me, Cuj some feelings are too deep. U Came into my life very unsudden and now ur presence meanss tooo muchh and this is vemryyy beautiful part of my world. Everyday with u feels very very happy and special
-U are my comfort place and with u I feel very very happy and noicee like u and u understand me, help me, care about me and u are the person who always stands with me in goods and bads. I promise to always respect u, stand for u, motivate u and always support u, with u life feels more enjoyable.
+          To the love of my life, happy birthday. Loving you has been the
+          easiest and most beautiful thing I've ever done. You make me want to
+          be a better version of myself, you make ordinary moments feel like
+          everything, and I'm so grateful I get to be yours. Here's to you
+          today, and to us always. Happy birthday!
         </p>
       </div>
 
-      {/* The trail — moved up under the headline, full-bleed edge to edge, tilted */}
-      <div className=" absolute top-50 left-1/2 mt-0 w-screen -rotate-10 -translate-x-1/2 ">
+      {/* The trail */}
+      <div className="absolute top-50 left-1/2 mt-0 w-screen -rotate-10 -translate-x-1/2">
         <MarqueeAlongSvgPath
           path={path}
           viewBox="0 0 996 330"
@@ -117,7 +121,7 @@ U are my comfort place and with u I feel very very happy and noicee like u and u
         </MarqueeAlongSvgPath>
       </div>
 
-      {/* Remaining space stays quiet on purpose — a hairline and a small mark, nothing more */}
+      {/* Remaining space */}
       <div className="mt-auto flex items-center justify-between px-8 pb-8 sm:px-14">
         <div className="h-px flex-1 bg-[#14140F]/10" />
         <span className="hero-mono px-4 text-[10px] uppercase tracking-[0.25em] text-[#8A8A80]">
