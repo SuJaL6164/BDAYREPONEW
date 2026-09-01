@@ -71,18 +71,15 @@ export const HeroSection = () => {
           <br />
           <span className="font-bold">Birthday</span>
           <br />
-          <span className="font-bold mt-1 text-amber-500">Honey</span>
+          <span className="font-bold mt-1 text-amber-500">Yuktu</span>
         </h1>
 
         <div className="mt-6 h-px w-16 bg-[#9C7A3F]" />
 
         <p className="hero-body mt-6 max-w-sm text-base leading-relaxed text-[#4A4A42]">
-          To the love of my life, happy birthday. Loving you has been the
-          easiest and most beautiful thing I've ever done. You make me want to
-          be a better version of myself, you make ordinary moments feel like
-          everything, and I'm so grateful I get to be yours. Here's to you
-          today, and to us always. Happy birthday!
-        </p>
+          To the love of my life. Loving you is the most beautiful thing I've ever done.You Came Into my life very sudden and now your presence meanss tooo muchh. You make ordinary moments feel like
+          everything, You are my comfort place & U are the one who always stands with me in my goods and bads, Will always respect u, stand for u, motivate u and always support u, With u life feels So enjoyable, I'm so grateful I get to be yours.
+        </p>,
       </div>
 
       {/* The trail */}
